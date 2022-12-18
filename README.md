@@ -3,14 +3,14 @@
 Code is clean if it can be understood easily – by everyone on the team. Clean code can be read and enhanced by a developer other than its original author. With understandability comes readability, changeability, extensibility and maintainability.
 
 
-General rules
+## General rules ##
 
 1- Follow standard conventions.
 2- Keep it simple stupid. Simpler is always better. Reduce complexity as much as possible.
 3- Boy scout rule. Leave the campground cleaner than you found it.
 4- Always find root cause. Always look for the root cause of a problem.
 
-Design rules
+## Design rules ## 
 
 
 1- Keep configurable data at high levels.
@@ -21,7 +21,7 @@ Design rules
 6- Follow Law of Demeter. A class should know only its direct dependencies.
 
 
-Understandability tips
+## Understandability tips ##
 
 
 1- Be consistent. If you do something a certain way, do all similar things in the same way.
@@ -31,7 +31,7 @@ Understandability tips
 5- Avoid logical dependency. Don’t write methods which works correctly depending on something else in the same class.
 6- Avoid negative conditionals.
 
-Names rules
+## Names rules ##
 
 1- Choose descriptive and unambiguous names.
 2- Make meaningful distinction.
@@ -41,7 +41,7 @@ Names rules
 6- Avoid encodings. Don’t append prefixes or type information.
 
 
-Functions rules
+## Functions rules ##
 
 
 1- Small.
@@ -52,7 +52,7 @@ Functions rules
 6- Don’t use flag arguments. Split method into several independent methods that can be called from the client without the flag.
 
 
-Comments rules
+## Comments rules ##
 
 
 1- Always try to explain yourself in code.
@@ -65,7 +65,7 @@ Comments rules
 8- Use as warning of consequences.
 
 
-Source code structure
+## Source code structure ##
 
 
 1- Separate concepts vertically.
@@ -80,7 +80,7 @@ Source code structure
 10- Don’t break indentation.
 
 
-Objects and data structures
+## Objects and data structures ##
 
 
 1- Hide internal structure.
@@ -94,7 +94,7 @@ Objects and data structures
 9- Prefer non-static methods to static methods.
 
 
-## Tests #
+## Tests ##
 
 
 1- One assert per test.
